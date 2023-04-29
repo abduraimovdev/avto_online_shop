@@ -1,5 +1,6 @@
-import 'package:avto_online_shop/runner.dart';
 import 'package:flutter/material.dart';
+
+import 'runner.dart';
 
 void main() {
   runApp(const Runner());
