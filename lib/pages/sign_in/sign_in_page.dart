@@ -37,7 +37,7 @@ class _SignInState extends State<SignIn> {
             Center(
               child: Text(
                 Lang.createyourAccount.tr(),
-                maxLines: 2,
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 36,
                   fontWeight: FontWeight.w400,
@@ -53,7 +53,7 @@ class _SignInState extends State<SignIn> {
 
 Map<String, String> en = {
   "back": "Back",
-  "createyourAccount": "Create Your Account",
+  "createyourAccount": "Create Your \nAccount",
 };
 
 enum Lang {
